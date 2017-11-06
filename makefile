@@ -1,2 +1,5 @@
-hellomake: hellomake.c hellofunc.c hellomake.h
-	gcc -o hellomake hellomake.c hellofunc.c -I.
+CC=gcc
+CFLAGS=-I.
+
+hellomake: hellomake.o hellofunc.o 
+	gcc -o hellomake hellomake.o hellofunc.o
