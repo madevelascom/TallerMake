@@ -5,10 +5,10 @@ CFLAGS=-I$(IDIR)
 ODIR=obj
 LDIR =../lib
 
-_DEPS = hellomake.h
+_DEPS = palindromo.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = hellomake.o hellofunc.o 
+_OBJ = palindromo.h palindromofunc.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 

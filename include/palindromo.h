@@ -1,0 +1,1 @@
+int Palindromo(char *palabra);
